@@ -1,9 +1,9 @@
-import { ToDoList } from '../ToDoList';
+import ToDoListContainer from '../../Containers/toDoListContainer';
 
 export const Homepage = () =>{
   return(
     <div className="App">      
-      <ToDoList  />
+      <ToDoListContainer  />
   </div>
   );
 }
